@@ -2,7 +2,7 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-require_once("config/db.php"); // conexión PDO
+require_once("config/db.php"); // conexión a la DB
 ?>
 
 <div class="container mt-4">

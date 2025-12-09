@@ -1,4 +1,4 @@
-// Revisar cada 5 minutos (300000 ms)
+// Revisar DB cada 5 minutos (300000 ms)
 setInterval(checkNuevasVisitas, 300000); 
 // también al cargar la página
 document.addEventListener('DOMContentLoaded', checkNuevasVisitas);

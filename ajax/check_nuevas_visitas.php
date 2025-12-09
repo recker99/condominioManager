@@ -1,5 +1,5 @@
 <?php
-// ajax/check_nuevas_visitas.php
+
 include_once '../config/db.php';
 header('Content-Type: application/json');
 

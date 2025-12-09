@@ -1,7 +1,6 @@
 <?php
-// functions/check_nuevas_visitas.php
 
-require_once __DIR__ . '/../config/db.php'; // incluye tu conexión PDO
+require_once __DIR__ . '/../config/db.php'; // conexión PDO a DB
 
 // Guardamos la última visita conocida en sesión
 session_start();
